@@ -21,4 +21,6 @@ public static void ServicioCRM_2011()
 
     _serviceProxy.ServiceConfiguration.CurrentServiceEndpoint.Behaviors.Add(new ProxyTypesBehavior());
     _ServicioCRM = ((IOrganizationService)_serviceProxy);
+
+    
 }
