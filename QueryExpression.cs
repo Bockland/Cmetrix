@@ -16,4 +16,5 @@ public static void Link(IOrganizationService Service)
     L1.LinkEntities.Add(L2);
     Consulta.LinkEntities.Add(L1);
     EntityCollection Resultado = Service.RetrieveMultiple(Consulta);
+	javier wet
 }
